@@ -15,24 +15,24 @@ public class Student {
 
     @Positive
     @NotNull(message = "The id should not be null")
-    int id;
+   private int id;
 
 
     @NotEmpty(message = "The name should not empty")
-    String name;
+   private String name;
 
 
 
     @Positive
     @NotNull(message = "The age should not be null")
-    int age;
+   private int age;
 
     @NotEmpty(message = "The email should not empty")
     @Email
-    String email;
+ private String email;
 
     @NotEmpty(message = "The major should not empty")
-    String major;
+   private String major;
 
 
 
